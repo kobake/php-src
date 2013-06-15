@@ -318,6 +318,22 @@ char *JewishMonthName[14] =
 
 char *JewishMonthHebName[14] =
 {
+#ifdef _WINDOWS
+	"",
+	"uuoe",
+	"cuai",
+	"enia",
+	"eau",
+	"uae",
+	"aao",
+	"aaoa",
+	"oeni",
+	"aeeo",
+	"neai",
+	"uiae",
+	"aa",
+	"aiai"
+#else
 	"",
 	"תשרי",
 	"חשון",
@@ -332,6 +348,7 @@ char *JewishMonthHebName[14] =
 	"תמוז",
 	"אב",
 	"אלול"
+#endif
 };
 
 /************************************************************************
